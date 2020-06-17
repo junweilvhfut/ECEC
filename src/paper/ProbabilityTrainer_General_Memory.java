@@ -62,8 +62,7 @@ public class ProbabilityTrainer_General_Memory {
 		
 		max_step_number = 20;
 		
-		step_length = train_data.getMaxLength() / 20;    //TODO
-//		step_length = 12;    //TODO
+		step_length = train_data.getMaxLength() / 20; 
 		
 		train_cv = new TimeSeriesSet[cv_number];
 		test_cv = new TimeSeriesSet[cv_number];
